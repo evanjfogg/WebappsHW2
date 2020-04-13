@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- I have decided to go with a traditional blog post format, except I have integrated a navbar that sticks to the top and stays to the left when scrolling for easier navigation -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.3.0/dist/bootstrap-toc.min.css">
+
+		<title></title>
+	</head>
+
+	<body data-spy="scroll" data-target="#toc">
+
+		<div class="container">
+    <div class="row">
+      <!-- sidebar, which will move to the top on a small screen -->
+      <div class="col-sm-3">
+     <nav id="toc" data-toggle="toc" class="sticky-top" class="text-left"></nav>
+      </div>
+      <!-- main content area -->
+      <div class="col-sm-9">
+      	
+      	<article>
+			<header class="text-center">
+				<a href="#0" class="badge badge-primary">Web Applications</a>
+				<h1>Full Stack Ecommerce Website: Specifications</h1>
+				<div><a href="portfolio.html">Evan Fogg</a></div>
+				<div>Posted on: <time datetime="2020-04-04T17:24">April 4, 2020 at 11:50 PM</time></div>
+			</header>
+			<section class="text-center" id="main">
+				<figure class="figure">
+					<img src="mern.png" class="figure-img img-fluid" alt="Figure image">
+				</figure>
+				<p class="lead">I have detailed the features and supplied the user stories for the MERN full stack ecommerce website.</p>
+				<h1 class="text-left">User Stories</h1>
+				<p class="text-left">The user stories provide vital insight into each user's experience on the website. They detail how the user will operate the website to achieve their goals. In this case those goals are obtaining a product for the customer and selling a product or modifying the details, stock, or price of a product for the seller (in this case also the admin). The user stories I have determined for this website can be seen below.</p>
+				<img align="left" src='userstories.png' class='img-fluid'>
+				<h1 class="text-left">Frontend Features</h1>
+				<p class="text-left">Frontend features for the website will include the login, cart, checkout views, home views all coded using HTML, CSS, and Javascript. The website will feature a navbar, searchbox, and more. React.js may be used for UI components as well. </p>
+				<h1 class="text-left">Backend Features</h1>
+				<p class="text-left">A Node.js/Express server will be implemented and connected to the database with mongoose. The backend will coordinate with the frontend to modify cart quantities, add or remove products, etc. It will also be responsible for authenticating the user and handling payment. </p>
+				<h1 class="text-left">Database Features</h1>
+				<p class="text-left">The database will be connected to the Node.js/Express server, and the database managament system used will be MongoDB. The database's responsibility is to store the data of the ecommerce website, including item ids, order ids, products prices, and authentication information.</h1>
+			</section>
+
+			<section class="text-center">
+			<h3 class="text-left">About the Author</h3>
+
+        	<img align="left" src='profile1.png' class='img-fluid'>
+
+        	<br><br><br><br><br><br><br><br><br>
+
+        	<h4 class="text-left" id='my-name'>Evan Fogg</h4>
+
+        	<P class="text-left"> Evan Fogg is currently a student pursuing his Bachelor's Degree in Computer Science at the University of New Orleans.</p>
+        	</section>
+
+
+		</article>
+
+      </div>
+    </div>
+  </div>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v0.3.0/dist/bootstrap-toc.min.js"></script>
+
+	</body>
+</html>
